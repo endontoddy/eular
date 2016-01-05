@@ -6,7 +6,8 @@ object Main extends App {
 
   val problems: Map[Int, Problem] = Map(
     1 -> new Problem1,
-    2 -> new Problem2
+    2 -> new Problem2,
+    3 -> new Problem3
   )
 
   println(s"Running Problem ${problemToRun.toString}...\n****************************")
